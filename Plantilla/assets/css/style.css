@@ -1,0 +1,30 @@
+/* 
+    Declara variable local con color de fondo
+*/
+:root {
+  --bg-page: #7fffd4;
+}
+
+/* 
+    Define propiedad a nivel de html smooth
+*/
+html {
+  scroll-behavior: smooth;
+}
+
+/* 
+    Setea a nivel de body el padding, el margin y 
+    la tipografía a utilizar
+*/
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Cabin", sans-serif;
+}
+
+/* 
+    Para la clase bg-page, se utiliza la variable local creada.
+*/
+.bg-page {
+  background-color: var(--bg-page);
+}
